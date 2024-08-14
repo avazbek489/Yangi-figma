@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img:hover {
+    transform: scale(1.5);
+    transition: 1s ease;
+    transform: rotateY(360deg);
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00FF66;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 1s ease;
+    transform: rotateX(360deg);
+    border: 1px solid #00FF66;
+}
+
+a:hover {
+    color: black;
+    background-color: gold;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 1s ease;
+    transform: rotateX(360deg);
+}
+
+body {
+    font-family: 'Inter';
+    font-family: 'Poppins';
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* HEADER QISMI */
+
+.header {
+    margin-bottom: 60px;
+    font-family: 'Inter';
+}
+
+.end {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.end-tittle {
+    font-family: "Inter";
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+/* SWAT QISMI */
+
+.swat {
+    margin-bottom: 70px;
+}
+
+.swat__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* SELL QISMI */
+
+.sell {
+    margin-bottom: 60px;
+    margin-top: 70px;
+}
+
+.to {
+    margin-bottom: 20px;
+}
+
+.bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bot-tittle {
+    font-family: 'Inter';
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+.bot-button {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FAFAFA;
+    background-color: #DB4444;
+    padding: 16px 48px;
+    border-radius: 4px;
+    opacity: 0px;
+    border: 1px solid #DB4444;
+}
+
+/* HERO QISMI */
+.hero {
+    margin-bottom: 140px;
+}
+
+
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.hero__container h4 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000000;
+}
+
+
+.hero__container h3 {
+    color: #DB4444;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.hero__container h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 1);
+    opacity: 50%;
+}
+
+.hero__container h6 {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #000000;
+    opacity: 50%;
+}
+
+.A1 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+/* GENERAL QISMI */
+
+.general {
+    background-color: #000000;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.general__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.general-link{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    color: #00FF66;
+    text-decoration: none;
+}
+
+.general-left h2 {
+font-size: 48px;
+font-weight: 600;
+line-height: 60px;
+letter-spacing: 0.04em;
+color: #FAFAFA;
+margin-bottom: 32px;
+margin-top: 40px;
+}
+
+.bud {
+    background-color: #FFFFFF;
+    padding: 14px 17px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+    color: #000000;
+    border-radius: 50%;
+}
+.buttom {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 40px;
+}
+
+.general-but5{
+padding: 16px 48px;
+gap: 10px;
+border-radius: 4px;
+opacity: 0px;
+background-color: #00FF66;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #FFFFFF;
+}
